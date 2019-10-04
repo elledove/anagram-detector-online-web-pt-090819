@@ -8,5 +8,6 @@ class Anagram
   def match(some_word)
     @word.select each do |el|
       some_word.split("")
+    end
   end
 end
