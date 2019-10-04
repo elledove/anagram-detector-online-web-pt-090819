@@ -6,5 +6,6 @@ class Anagram
   end
   
   def match(some_word)
+    @word.match each do |el|
   end
 end
