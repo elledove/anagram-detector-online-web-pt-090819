@@ -6,7 +6,7 @@ class Anagram
   end
   
   def match(some_word)
-    @word.select each do |el|
+    @word.select do |el|
       some_word.split("")
     end
   end
